@@ -10,7 +10,7 @@ export const Home = () => {
 
   return (
     <View>
-      <Text style={{fontSize: 20, color: '#111'}}>Home Test</Text>
+      <Text style={{fontSize: 21, color: '#111'}}>Home Test</Text>
 
       <TouchableOpacity
         style={{height: 35, width: 200, backgroundColor: 'orange'}}
