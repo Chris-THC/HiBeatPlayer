@@ -3,6 +3,7 @@ import React from 'react';
 import {useNavigation} from '@react-navigation/native';
 import {NativeStackNavigationProp} from '@react-navigation/native-stack';
 import {RootStackParamList} from '../../types/ScreenList';
+import {TopArtistComponent} from '../../components/TopArtistComponent/TopArtistComponent';
 
 export const Home = () => {
   const navigation =
@@ -17,6 +18,8 @@ export const Home = () => {
         onPress={() => navigation.navigate('Player')}>
         <Text style={{color: '#fff', fontSize: 18}}>Go to play</Text>
       </TouchableOpacity>
+
+      <TopArtistComponent />
     </View>
   );
 };
